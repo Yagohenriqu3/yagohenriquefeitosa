@@ -1,0 +1,366 @@
+.home-container{
+    background: url('../img/front-end-bg.jpg') no-repeat center center/cover;
+    user-select: none;
+}
+
+
+#about{
+    width: 100%;
+    height: 50rem;
+    margin: 3rem 0;
+    
+}
+
+.container-about{
+    display: flex;
+    width: 90%;
+    height: 40rem;
+    border: solid 1px #333333;
+    margin: auto;
+
+}
+
+.about-lados{
+    width: 50%;
+    display: flex;
+    height: 15rem;
+    padding: 1rem;
+
+}
+
+.about-lados h3{
+    font-size: 1.5rem;
+
+}
+
+#about-lado-esquerdo{
+    display: flex;
+    flex-direction: column;
+    background-color: #333333;
+    color: rgb(234, 234, 234);
+    height: 95%;
+    
+}
+
+#about-lado-esquerdo img{
+    width: 50%;
+    
+}
+
+#about-lado-esquerdo p{
+    text-align: center;
+    margin-top: -5rem;
+    font-size: 1.2rem;
+    color: rgb(234, 234, 234);
+    user-select: none;
+
+}
+
+#about-lado-direito{
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+}
+
+#about-lado-direito ul{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+#about h2,p,h3,img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+
+}
+
+#about h2,h3{
+    padding: 2rem;
+    font-size: 1.5rem;
+
+}
+
+.lista-de-habilidades{
+    display: flex;
+    padding: 0;
+    margin: auto;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 90%;
+    
+}
+
+.lista-de-habilidades li{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    user-select: none;
+
+}
+
+.icon{
+    font-size: 4rem;
+    transition: 0.3s;
+    
+}
+
+.lista-de-habilidades li:hover .icon{
+    font-size: 5.5rem;
+    transition: 0.3s;
+    
+}
+
+.fa-html5 {
+    color: #E34F26;
+
+}
+
+.fa-css3-alt {
+    color: #1572B6;
+
+}
+
+.fa-js {
+    color: #F7DF1E;
+
+}
+
+.fa-react {
+    color: #61DAFB;
+
+}
+
+.fa-python {
+    color: #3776AB;
+
+}
+
+.fa-php {
+    color: #777BB4;
+
+}
+
+.fa-database {
+    color: #00758F;
+
+}
+
+.fa-paint-brush {
+    color: #00AACE; 
+
+}
+
+/*projetos*/
+
+#projects{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.container-projects{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px rgba(0, 0, 0, 0.127);
+    border-radius: 0.5rem;
+    margin: 1rem;
+    padding-bottom: 1rem;
+    transition: 0.5s;
+
+}
+
+.botao-projetos{
+    padding: 10px 20px;
+    text-decoration: none;
+    margin-top: 1rem;
+    color: rgb(234, 234, 234);
+    background-color: #333333;
+    border: none;
+    border-radius: 5px;
+    
+}
+
+.container-img-project{
+    width: 18rem;
+    height: 10rem;
+    padding: 1rem;
+    margin: 1rem;
+
+}
+
+.img-project{
+    margin: auto;
+    width: 90%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.project:hover{
+    background-color: #333333;
+    color: rgb(234, 234, 234);
+
+}
+.project:hover .botao-projetos{
+    background-color:rgb(234, 234, 234);
+    color: #333333;
+}
+
+.projeto1{
+    background-image: url('../img/valueware.png');
+
+}
+
+.project:hover .projeto1{
+    background-image: url('../gif/valueware.gif');
+
+}
+
+.projeto2{
+    background-image: url('../img/julianacastro.png');
+
+}
+
+.project:hover .projeto2{
+    background-image: url('../gif/julianacastro.gif');
+
+}
+
+.projeto3{
+    background-image: url('../img/futurocerto.png');
+
+}
+
+.project:hover .projeto3{
+    background-image: url('../gif/futurocerto.gif');
+
+}
+
+.contact-info{
+    margin: 2rem 0;
+}
+
+.contact-info p{
+    margin: 1rem 0;
+}
+
+.contact-info p a{
+    text-decoration: none;
+    color: #333333;
+    
+
+}
+
+.contact-info p a:hover{
+    color: #202020;
+    text-decoration: underline;
+}
+/*formulario*/
+
+@media (max-width: 768px){
+    
+    
+    #about{
+        width: 100%;
+        height: 65rem;
+        margin: 0;
+        margin: 3rem 0;
+        padding: 0;
+        
+        
+    }
+    
+    .container-about{
+        flex-direction: column;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        border: none;
+        
+    
+    }
+    
+    .about-lados{
+        width: 100%;
+        display: flex;
+        align-content: center;
+        margin: auto;
+    
+    }
+    
+    #about-lado-esquerdo{
+        height: 100%;
+        padding: 2rem 0;
+        
+    }
+    
+    
+    
+    #about-lado-esquerdo p{
+        margin-top: 1rem;
+        padding: 2rem;
+    
+    }
+    
+    #about-lado-direito{
+        margin: 0;
+        padding: 0; 
+        height: 100rem;
+        
+    
+    }
+    
+    .lista-de-habilidades{
+        width: 100%;
+    }
+    
+    
+    .icon{
+        font-size: 3rem;
+        transition: 0.3s;
+        
+    }
+    
+    .lista-de-habilidades li:hover .icon{
+        font-size: 4rem;
+        
+    }
+    
+    /*projetos*/
+    
+    #projects{
+        width: 90%;
+        margin-top: 15rem;
+        
+    }
+    
+    .container-projects{
+        flex-direction: column;
+    
+    }
+    
+    .project{
+       width: 90%;
+    
+    }
+    
+}

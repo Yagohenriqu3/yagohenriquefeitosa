@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/global.css">
+    <link rel="stylesheet" href="./style/header.css">
+    <title>Portfólio de Yago Henrique Feitosa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="logo">Yago Henrique Feitosa</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Sobre</a></li>
+                <li><a href="#projects">Projetos</a></li>
+                <li><a href="#contact">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Seção de Introdução -->
+    <section id="home" class="home-container">
+        <div>
+            
+                <h1>Bem-vindo ao meu portfólio</h1>
+                <p>Desenvolvedor Front-End especializado em criar experiências web modernas e responsivas.</p>
+                <a href="#projects" class="cta-button">Veja Meus Projetos</a>
+            
+        </div>
+    </section>
+        
+
+    <!-- Sobre -->
+    <section id="about">
+        <h2>Sobre Mim</h2>
+        <div class="container-about">
+            <div id="about-lado-esquerdo" class="about-lados">
+                <img src="./img/yago.jpeg" alt="Foto de Yago Henrique Feitosa">
+                <p>Sou uma pessoa esforçada e autodidata, atualmente estudando Análise e Desenvolvimento de Sistemas (ADS) e me especializando em desenvolvimento front-end. Estou em busca da minha primeira oportunidade no mercado de trabalho nesta área. Valorizo muito a família, os amigos e um bom ambiente de trabalho. Estou sempre disposto a enfrentar novos desafios e a aprender cada vez mais no campo da programação.</p>
+            </div>
+
+            <div id="about-lado-direito" class="about-lados">
+                <h3>Habilidades</h3>
+                <ul class="lista-de-habilidades">
+                    <li><i class="fab fa-html5 icon"></i> HTML</li>
+                <li><i class="fab fa-css3-alt icon"></i> CSS</li>
+                <li><i class="fab fa-js icon"></i> JavaScript</li>
+                <li><i class="fab fa-react icon"></i> React</li>
+                <li><i class="fab fa-python icon"></i> Python</li>
+                <li><i class="fab fa-php icon"></i> PHP</li>
+                <li><i class="fas fa-database icon"></i> MySQL</li>
+                <li><i class="fas fa-paint-brush icon"></i> CorelDRAW</li>
+            
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projetos -->
+    <section id="projects">
+        <h2>Meus Projetos</h2>
+        <div class="container-projects">
+            <div class="project">
+                <div class="container-img-project">
+                    <div class="img-project projeto3">
+                        <!--imagem do projeto-->
+                    </div>
+                </div>
+                <h3>Futuro Certo</h3>
+                <p>Site institucional</p>
+                <p>Tecnologias: React, PHP, Java Script, MySQL</p>
+                <a href="https://yagohenriqu3.github.io/projeto-backend/" target="_blank" class="botao-projetos">Ver Projeto</a>
+                <a href="https://github.com/Yagohenriqu3/projeto-backend" target="_blank" class="botao-projetos">Código no GitHub</a>
+            </div>
+            <div class="project">
+                <div class="container-img-project">
+                    <div class="img-project projeto1">
+                        <!--imagem do projeto-->
+                    </div>
+                </div>
+                <h3>Value Ware</h3>
+                <p>Site institucional</p>
+                <p>Tecnologias: React, PHP, Java Script</p>
+                <a href="https://www.valueware.com.br/" target="_blank" class="botao-projetos">Ver Projeto</a>
+                <a href="https://github.com/Yagohenriqu3/value_ware_demo" target="_blank" class="botao-projetos">Código no GitHub</a>
+            </div>
+            
+            <div class="project">
+                <div class="container-img-project">
+                    <div class="img-project projeto2">
+                        <!--imagem do projeto-->
+                    </div>
+
+                </div>
+                <h3>Juliana Castro</h3>
+                <p>Landing Page</p>
+                <p>Tecnologias: HTML5, CSS3, PHP</p>
+                <a href="https://www.valueware.com.br/" target="_blank" class="botao-projetos">Ver Projeto</a>
+                <a href="link-do-github" target="_blank" class="botao-projetos">Código no GitHub</a>
+            </div>
+        </div>
+        <!-- Repita para mais projetos -->
+    </section>
+
+    <!-- Contato -->
+    <section id="contact">
+        <h2>Contato</h2>
+        <form action="./backend/enviar_email.php" method="post">
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Mensagem:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+
+        <div class="contact-info">
+            <p>Email: <a href="mailto:yagohenriquebr@gmail.com" target="_blank">yagohenriquebr@gmail.com</a></p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/feed/?trk=404_page" target="_blank"> Yago Henrique Feitosa</a></p>
+            <p>GitHub: <a href="https://github.com/Yagohenriqu3" target="_blank"> Yagohenriqu3</a></p>
+        </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2024 Desenvolvido por Yago Henrique Feitosa</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/js/all.min.js"></script>
+</body>
+</html>
