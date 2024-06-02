@@ -43,13 +43,13 @@
 }
 
 #about-lado-esquerdo img{
-    width: 50%;
+    width: 45%;
     
 }
 
 #about-lado-esquerdo p{
     text-align: center;
-    margin-top: -3rem;
+    margin-top: 0rem;
     font-size: 1.2rem;
     color: rgb(234, 234, 234);
     user-select: none;
